@@ -1,0 +1,164 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: teal;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    padding: 5px 0px;
+    transition: all 0.5s;
+    z-index: 99997;
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.header2 {
+    color: #424242;
+    font-family: "Montserrat";
+}
+
+.header2 em {
+    color: #00bfa5;
+    font-style: normal;
+}
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 480px;
+    padding-top: 100px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+    opacity: 0.8;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.hi-name-title {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10em;
+    background-attachment: fixed;
+    background-position: center !important;
+    animation: type 5s steps(60, end); 
+}
+
+
+.hi-name-title:nth-child(2){
+  animation: type2 10s steps(60, end);
+}
+
+.typeWriter {
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.project-dates {
+    text-transform: uppercase;
+}
+
+.project-title {
+    font-family: "Montserrat";
+}
+
+.project-description {
+    font-size: 26px;
+    font-family: "Source Serif Pro";
+}
+
+.collaborators {
+    font-size: 24px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-top: 0.5em solid #00bcd4;
+    padding: 0;
+    height: 0.5px;
+    
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.parallax .face-img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100% !important;
+  min-height: 100%;
+    padding-top: 200px !important;
+}
+
+.parallax .mountains {
+    background-position: fixed;
+    min-width: 100px !important;
+}
+
+.material-icons {
+    margin: 5px;
+    display: inline-block;
+    line-height: inherit;
+    align-content: center;  
+}
+
+footer.page-footer {
+  margin: 0;
+}
