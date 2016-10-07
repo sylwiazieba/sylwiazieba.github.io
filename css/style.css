@@ -30,7 +30,7 @@ p {
 .header2 {
     color: #424242;
     font-family: "Montserrat";
-    font-size: 36px;
+    font-size: 34px;
     line-height: 3.4rem;
 }
 
@@ -128,30 +128,30 @@ p {
 
 .project-dates {
     text-transform: uppercase;
-    font-size: 38px;
+    font-size: 28px;
 }
 
 .project-title {
     font-family: "Montserrat";
-    font-size: 48px;
+    font-size: 32px;
 }
 
 .project-subtitle {
-    font-size: 38px;
+    font-size: 28px;
 }
 
 .project-description {
-    font-size: 32px;
+    font-size: 24px;
     line-height: 3rem;
     font-family: "Source Serif Pro";
 }
 
 .collaborators {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .collaborators-ul {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 hr {
@@ -168,7 +168,7 @@ hr {
 
 .about-me-text em {
     color: #00bfa5;
-    font-style:normal;
+    font-style: normal;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
@@ -195,7 +195,7 @@ hr {
         height: 0.25px !important;
     }
     .about-me-title {
-        font-size: 26px !important;   
+        font-size: 26px !important;
     }
     .about-me-text {
         font-size: 16px !important;
@@ -328,9 +328,12 @@ hr {
 
 .about-me-text {
     font-family: "Source Serif Pro";
-    font-size: 32px;
+    font-size: 24px;
     float: none !important;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
 }
 
 .mountain-text {
