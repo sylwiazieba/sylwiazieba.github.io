@@ -30,6 +30,16 @@ p {
 .header2 {
     color: #424242;
     font-family: "Montserrat";
+    font-size: 36px;
+    line-height: 3.4rem;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .header2 {
+        font-size: 16px !important;
+        padding-top: 10px;
+        line-height: 2rem;
+    }
 }
 
 .header2 em {
@@ -60,7 +70,8 @@ p {
 }
 
 .linkedin {
-    padding: 5px;
+    padding: 10px;
+    font-size: 3rem;
 }
 
 .github {
@@ -111,25 +122,36 @@ p {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
     .hi-name-title {
         font-size: 2rem !important;
-        padding-top: 50px;
+        padding-top: 20px;
     }
 }
 
 .project-dates {
     text-transform: uppercase;
+    font-size: 38px;
 }
 
 .project-title {
     font-family: "Montserrat";
+    font-size: 48px;
+}
+
+.project-subtitle {
+    font-size: 38px;
 }
 
 .project-description {
-    font-size: 26px;
+    font-size: 32px;
+    line-height: 3rem;
     font-family: "Source Serif Pro";
 }
 
 .collaborators {
-    font-size: 24px;
+    font-size: 30px;
+}
+
+.collaborators-ul {
+    font-size: 26px;
 }
 
 hr {
@@ -142,6 +164,45 @@ hr {
     border-top: 0.5em solid #00bcd4;
     padding: 0;
     height: 0.5px;
+}
+
+.about-me-text em {
+    color: #00bfa5;
+    font-style:normal;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .project-dates {
+        font-size: 18px !important;
+    }
+    .project-title {
+        font-size: 22px !important;
+    }
+    .project-subtitle {
+        font-size: 18px !important;
+    }
+    .project-description {
+        font-size: 16px !important;
+        line-height: 1.5rem !important;
+    }
+    .collaborators {
+        font-size: 18px !important;
+    }
+    .collaborators-ul {
+        font-size: 16px !important;
+    }
+    .hr {
+        height: 0.25px !important;
+    }
+    .about-me-title {
+        font-size: 26px !important;   
+    }
+    .about-me-text {
+        font-size: 16px !important;
+    }
+    .connect-me {
+        margin-top: -50px !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -257,17 +318,19 @@ hr {
 }
 
 .about-me {
-    padding: 30px;
+    padding: 5px;
 }
 
 .about-me-title {
     font-family: "Montserrat";
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .about-me-text {
     font-family: "Source Serif Pro";
-    font-size:
+    font-size: 32px;
+    float: none !important;
+    padding-bottom: 10px;
 }
 
 .mountain-text {
@@ -283,4 +346,5 @@ hr {
 
 footer.page-footer {
     margin: 0;
+    padding-top: 0 !important;
 }
