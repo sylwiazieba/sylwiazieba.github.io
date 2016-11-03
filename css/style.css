@@ -81,6 +81,7 @@ p {
 .hi-name-title {
     white-space: nowrap;
     overflow: hidden;
+    margin: 0 auto;
     width: 10em;
     background-attachment: fixed;
     background-position: center !important;
