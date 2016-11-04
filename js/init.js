@@ -20,7 +20,7 @@
     if( char === '>' ) isTag = false;
 
     if (isTag) return type();
-    setTimeout(type, 80);
+    setTimeout(type, 100);
     }());
       
   }); // end of document ready
