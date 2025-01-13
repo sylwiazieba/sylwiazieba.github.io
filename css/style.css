@@ -139,6 +139,12 @@ hr {
 }
 
 /* The flip card container */
+
+.card-img {
+  width: 600px;
+  height:300px;
+}
+
 .flip-card {
   background-color: transparent;
   width: 600px;
