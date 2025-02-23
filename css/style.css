@@ -272,9 +272,9 @@ hr {
 }
 
 .img-circle {
-    width: 100px; /* Set the desired width */
-    height: 100px; /* Set the desired height */
-    transform: scale(1.5); /* Scale the image */
+    width: 200px; 
+    height: 200px; 
+    transform: scale(1.5);
 }
 
 .team-member:hover .border-img .border {
