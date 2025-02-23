@@ -271,6 +271,12 @@ hr {
     border-radius: 50%;
 }
 
+.img-circle {
+    width: 100px; /* Set the desired width */
+    height: 100px; /* Set the desired height */
+    transform: scale(1.5); /* Scale the image */
+}
+
 .team-member:hover .border-img .border {
     border-width: 0px;
 }
